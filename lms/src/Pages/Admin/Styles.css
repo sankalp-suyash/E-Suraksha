@@ -1,0 +1,197 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 0 20px;
+  border-radius: 10px;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-section {
+  margin-left: auto;
+}
+
+.user-section a {
+  display: inline-block;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+}
+
+.user-section a:hover {
+  background-color: #e0e0e0;
+}
+
+/* Sidebar */
+.sidebar-wrapper {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.top-section {
+  margin-bottom: 20px;
+}
+.top-section img {
+  width: 100%;
+}
+
+.bottom-section {
+  width: 100%;
+  text-align: center;
+}
+
+.custom-card {
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+.card-cover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.card-cover img {
+  width: 50%;
+}
+.custom-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+/* horizontal card */
+.horizontal-card {
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.horizontal-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  width: 100px; /* Adjust image width as needed */
+  height: 100px; /* Adjust image height as needed */
+  margin-right: 20px;
+}
+
+.image-container .image_container_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.details {
+  flex: 1;
+}
+.details h3 {
+  font-size: 1.5rem;
+}
+.details p {
+  font-size: 1rem;
+}
+.join-button {
+  margin-left: auto;
+}
+.total-students-card {
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.total-students-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-content h2 {
+  font-size: 2rem;
+}
+.count {
+  font-size: 36px;
+}
+/* courseCreation */
+.form-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.submit-button {
+  background-color: #52c41a;
+  border-color: #52c41a;
+  width: 100%;
+}
+.image-container_topright {
+  position: absolute;
+  top: 15%;
+  right: 5%;
+  width: 200px;
+  height: 200px;
+}
+.image-container_topright img {
+  width: 100%;
+}
+/* lecture management */
+.lecture_form {
+  background-color: white;
+}
+/* studen manageemtn */
+.student_avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.studentmanagement-table {
+  padding: 10px;
+  background-color: #fff;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+.studentmanagement-table .ant-table-tbody > tr > td {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.studentmanagement-table .ant-table-tbody > tr:last-child > td {
+  border-bottom: none;
+}

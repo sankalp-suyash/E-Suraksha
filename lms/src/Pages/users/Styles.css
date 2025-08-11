@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+  .parent-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-card {
+    width: 100% !important;
+    border: 1px solid green;
+  }
+  .form_child {
+    width: 100% !important;
+  }
+
+  .timing {
+    font-size: 8px;
+  }
+}
